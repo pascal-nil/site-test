@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <title>Test Alicia</title>
 
-    <link rel="stylesheet" href="/page-test/styles/styles.css">
-
+    <link rel="stylesheet" href="/site-test/styles/styles.css">
 
 
 </head>
