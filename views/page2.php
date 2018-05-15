@@ -12,8 +12,14 @@
 <body>
 <?php include 'header.php';?>
 <div class="page-container page-2">
-    je suis la page 2.
-</div>
 
+    <ul class="list-container">
+    </ul>
+    <input id="input-add-files" type="file" name="img" onchange="addOnList(this.files);">
+    <button onclick="checkAllFiles();">Done !</button>
+
+</div>
+<script src="/site-test/script/page2.js"></script>
+<script src="/site-test/script/jquery-3.2.1/jquery-3.2.1.min.js"></script>
 </body>
 </html>
