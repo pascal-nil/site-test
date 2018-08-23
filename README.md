@@ -3,7 +3,7 @@
 docker create --name server debian
 docker commit server server:server
 docker rm $(docker ps -a -q)
-docker run --interactive --tty --name server server:server
+docker run --interactive --tty --cap-add SYS_ADMIN --name server server:server
 ```
 
 ## pour lancer le serveur
