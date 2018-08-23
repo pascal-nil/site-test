@@ -12,6 +12,11 @@ docker start server
 docker attach server
 ```
 
+## pour lancer un deuxieme terminal
+```
+docker exec -it server bash
+```
+
 ## importer une image
 ```
 docker load -i server.tar
